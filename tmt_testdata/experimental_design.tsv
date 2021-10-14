@@ -1,27 +1,15 @@
 Fraction_Group	Fraction	Spectra_Filepath	Label	Sample
-1	1	Natalia_TMT6_1_240m_1pt5.mzML	1	1
-1	1	Natalia_TMT6_1_240m_1pt5.mzML	2	2
-1	1	Natalia_TMT6_1_240m_1pt5.mzML	3	3
-1	1	Natalia_TMT6_1_240m_1pt5.mzML	4	4
-1	1	Natalia_TMT6_1_240m_1pt5.mzML	5	5
-1	1	Natalia_TMT6_1_240m_1pt5.mzML	6	6
-2	1	Natalia_TMT6_2_240min_1pt5.mzML	1	7
-2	1	Natalia_TMT6_2_240min_1pt5.mzML	2	8
-2	1	Natalia_TMT6_2_240min_1pt5.mzML	3	9
-2	1	Natalia_TMT6_2_240min_1pt5.mzML	4	10
-2	1	Natalia_TMT6_2_240min_1pt5.mzML	5	11
-2	1	Natalia_TMT6_2_240min_1pt5.mzML	6	12
+1	1	TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01.mzML	1	1
+1	1	TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01.mzML	2	2
+1	1	TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01.mzML	3	3
+1	1	TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01.mzML	4	4
+1	1	TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01.mzML	5	5
+1	1	TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01.mzML	6	6
 
 Sample	MSstats_Condition	MSstats_BioReplicate	MSstats_Mixture
-1	NI	1	1
-2	NI	2	1
-3	d3 pi	3	1
-4	d3 pi	4	1
-5	ECM	5	1
-6	ECM	6	1
-7	ECM	7	2
-8	ECM	8	2
-9	NI	9	2
-10	NI	10	2
-11	d3 pi	11	2
-12	d3 pi	12	2
+1	SP=Yeast;CT=protein;AC=P00924;QY=10|SP=BOVIN;CT=protein;AC=P02769;QY=1|SP=RABIT;CT=protein;AC=P00489;QY=2|SP=BOVIN;CT=protein;AC=P62894;QY=1	1	1
+2	SP=Yeast;CT=protein;AC=P00924;QY=5|SP=BOVIN;CT=protein;AC=P02769;QY=2.5|SP=RABIT;CT=protein;AC=P00489;QY=2|SP=BOVIN;CT=protein;AC=P62894;QY=1	2	1
+3	SP=Yeast;CT=protein;AC=P00924;QY=2.5|SP=BOVIN;CT=protein;AC=P02769;QY=5|SP=RABIT;CT=protein;AC=P00489;QY=2|SP=BOVIN;CT=protein;AC=P62894;QY=1	3	1
+4	SP=Yeast;CT=protein;AC=P00924;QY=1|SP=BOVIN;CT=protein;AC=P02769;QY=10|SP=RABIT;CT=protein;AC=P00489;QY=2|SP=BOVIN;CT=protein;AC=P62894;QY=1	4	1
+5	SP=Yeast;CT=protein;AC=P00924;QY=2.5|SP=BOVIN;CT=protein;AC=P02769;QY=5|SP=RABIT;CT=protein;AC=P00489;QY=1|SP=BOVIN;CT=protein;AC=P62894;QY=1	5	1
+6	SP=Yeast;CT=protein;AC=P00924;QY=10|SP=BOVIN;CT=protein;AC=P02769;QY=1|SP=RABIT;CT=protein;AC=P00489;QY=1|SP=BOVIN;CT=protein;AC=P62894;QY=2	6	1
