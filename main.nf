@@ -143,7 +143,7 @@ def helpMessage() {
       --top_PSMs					Consider only top X PSMs per spectrum. 0 considers all.(Default 1).
       --picked_fdr        Consider to apply picked fdr in the ProteinInference tool
       --protein_score     Protein Score to be use in the ProteinInference tool, options ("Best", "Product", "Sum")
-
+      --min_peptides_per_protein  Minimal number of peptides needed for a protein identification. (default: '1' min: '0')
 
     IDConflictResolver:
       --resolve_between_features	A map may contain multiple features with both identical (possibly modified i.e. not stripped) sequence and charge state. 							   The feature with the 'highest intensity' is very likely the most reliable one.Default(off),highest_intensity
@@ -1226,9 +1226,9 @@ process protein_inference{
 	 		 -protein_fdr 'true' \\
 	 		 -picked_fdr ${params.picked_fdr} \\
 	 		 -picked_decoy_string ${params.decoy_affix} \\
+             -Algorithm: min_peptides_per_protein {params.min_peptides_per_protein} \\
 	 		 -threads ${task.cpus} \\
 	 		 -debug 1 \\
-	 		 -score_aggregation_method ${params.protein_score} \\
 			 -out ${consus_file.baseName}_epi.consensusXML \\
 			 > ${consus_file.baseName}_inference.log
 	 """
