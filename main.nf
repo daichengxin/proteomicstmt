@@ -1226,7 +1226,7 @@ process protein_inference{
 	 		 -protein_fdr 'true' \\
 	 		 -picked_fdr ${params.picked_fdr} \\
 	 		 -picked_decoy_string ${params.decoy_affix} \\
-             -Algorithm: min_peptides_per_protein {params.min_peptides_per_protein} \\
+             -Algorithm: min_peptides_per_protein ${params.min_peptides_per_protein} \\
 	 		 -threads ${task.cpus} \\
 	 		 -debug 1 \\
 			 -out ${consus_file.baseName}_epi.consensusXML \\
